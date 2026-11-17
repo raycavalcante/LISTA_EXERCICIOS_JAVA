@@ -8,7 +8,18 @@ public class Exer05 {
 		// TODO Auto-generated method stub
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.print("ola");
+		System.out.print("Preço: ");
+		double preco = scan.nextDouble();
+		
+		System.out.print("quantidade: ");
+		int qtd = scan.nextInt();
+		
+		System.out.print("Dinheiro: ");
+		double din = scan.nextDouble();
+		
+		double troco = din - (preco * qtd);
+		
+		System.out.printf("troco: %.2f",troco);
 		
 		scan.close();
 	}

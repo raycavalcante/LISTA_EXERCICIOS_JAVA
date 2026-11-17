@@ -8,8 +8,15 @@ public class Exer04 {
 		// TODO Auto-generated method stub
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.print("oladgg");
+		System.out.print("x: ");
+		int x = scan.nextInt();
 		
+		System.out.print("y: ");
+		int y = scan.nextInt();
+		
+		int soma = y+x;
+		
+		System.out.println("Soma: "+soma);
 		scan.close();
 	}
 

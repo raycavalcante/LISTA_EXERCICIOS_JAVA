@@ -8,7 +8,18 @@ public class Exer07 {
 		// TODO Auto-generated method stub
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.print("");
+		System.out.print("Nome: ");
+		String nome = scan.nextLine();
+		
+		System.out.print("Valor hora: ");
+		double hora = scan.nextDouble();
+		
+		System.out.print("Horas trabalhadas: ");
+		int trabalho = scan.nextInt();
+		
+		double salario = hora * trabalho;
+		
+		System.out.printf("O pagamento para "+nome+" deve ser %.2f",salario);
 		
 		scan.close();
 	}
